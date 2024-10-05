@@ -18,6 +18,7 @@ class _LoginPageState extends ConsumerState<LoginPage> {
     return Scaffold(
       backgroundColor: AppColors.lightBackground,
       appBar: AppBar(
+          backgroundColor: AppColors.lightBackground,
         title: Text(
           'Comments',
           style: TextStyle(

@@ -19,6 +19,7 @@ class _SignupPageState extends ConsumerState<SignupPage> {
     return Scaffold(
       backgroundColor: AppColors.lightBackground,
       appBar: AppBar(
+          backgroundColor: AppColors.lightBackground,
         title: Text(
           'Comments',
           style: TextStyle(
